@@ -14,7 +14,7 @@
 }
 
 .description{
-  width: 100%;
+  width: 216rpx;
   position: absolute;
   bottom: 0;
   background: #ffffff;
