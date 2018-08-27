@@ -1,0 +1,7 @@
+var index = function(index){
+  // return index;
+  return index = index > 10 ? index : '0' + index;
+}
+module.exports = {
+  index:index,
+};

@@ -1,0 +1,27 @@
+.container{
+  width: 600rpx;
+  height: 80rpx;
+  background-color: #f7f7f7;
+  border-radius: 2px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon{
+  height: 80rpx;
+  width: 80rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon image{
+  height: 34rpx;
+  width: 23rpx;
+}
+.title{
+  font-size: 28rpx;
+}
