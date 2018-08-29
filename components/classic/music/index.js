@@ -9,7 +9,11 @@ Component({
    */
   behaviors: [classicBeh],
   properties: {
-    src:String
+    src:String,
+    title:{
+      type:String,
+      value:'music'
+    }
   },
 
   /**
@@ -37,6 +41,7 @@ Component({
         this.setData({
           playing: true
         })
+        mMgr.title = this.properties.title;
         mMgr.src = this.properties.src;
       }else{
         this.setData({

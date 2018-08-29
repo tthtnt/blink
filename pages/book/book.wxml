@@ -8,8 +8,8 @@
   <view class='sub-container'>
     <image class='head-img' src='/images/book/quality.png' />
     <view class='books-container'>
-      <block wx:for="{{books}}">
-        <v-book book="{{item}}" />
+      <block wx:for="{{books}}" wx:key="id">
+        <v-book bind:jump="onJump" book="{{item}}" />
       </block>
     </view>
   </view>
